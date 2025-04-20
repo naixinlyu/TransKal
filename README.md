@@ -151,6 +151,4 @@ For CSV files, the expected format is:
 
 ## Acknowledgments
 
-This implementation was inspired by the Transformer architecture introduced in the paper "Attention Is All You Need" by Vaswani et al. and adapted for anomaly detection in time series data.
-
 The Tennessee Eastman Process (TEP) dataset is a benchmark dataset for process monitoring and fault detection in chemical processes, originally developed by Downs and Vogel.
