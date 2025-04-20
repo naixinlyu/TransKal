@@ -2,8 +2,6 @@
 
 ![Image Description](transkal-model-architecture.jpg)
 
-# Transformer-Based Anomaly Detection
-
 A Python package for time series anomaly detection using Transformer neural networks and Kalman filtering. This package is designed for general-purpose anomaly detection across various time series data and has been tested on the Tennessee Eastman Process (TEP) dataset.
 
 ## Features
