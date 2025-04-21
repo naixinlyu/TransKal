@@ -82,6 +82,7 @@ python examples/tep_example.py
 | 20         | 0.9259   | 0.8621   |
 | **Average**| **0.9343** | **0.8771** |
 
+For detailed implementation and analysis, please see [Fault_Detection_with_Transformer_and_Kalman_Filter_for_TEP.ipynb](Fault_Detection_with_Transformer_and_Kalman_Filter_for_TEP.ipynb)
 
 ### Python API Example
 
