@@ -16,8 +16,8 @@ A Python package for time series anomaly detection using Transformer neural netw
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/anomaly-detection.git
-   cd anomaly-detection
+   git clone https://github.com/naixinlyu/TransKal.git
+   cd TransKal
    ```
 
 2. Install dependencies:
@@ -65,7 +65,7 @@ You can also use the package directly in your Python code:
 from anomaly_detection import AnomalyDetector, DataProcessor
 import numpy as np
 
-# Prepare your data
+# Prepare data
 X_train = ...  # Training features
 y_train = ...  # Training labels
 X_test = ...   # Testing features
