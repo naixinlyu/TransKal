@@ -97,7 +97,7 @@ print(f"F1 Score: {results['metrics']['f1']:.4f}")
 ## File Structure
 
 ```
-anomaly_detection/
+TransKal/
 ├── README.md
 ├── requirements.txt
 ├── anomaly_detection/
@@ -116,7 +116,8 @@ anomaly_detection/
 ├── examples/
 │   ├── tep_example.py
 │   └── custom_example.py
-└── run.py
+├── run.py
+└── Fault_Detection_with_Transformer_and_Kalman_Filter_for_TEP.ipynb
 ```
 
 ## Model Architecture
