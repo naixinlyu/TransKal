@@ -57,6 +57,32 @@ If you have the Tennessee Eastman Process dataset in RData format:
 python examples/tep_example.py
 ```
 
+#### Performance Results on TEP Dataset
+
+| Fault Type | F1 Score | Accuracy |
+|------------|----------|----------|
+| 1          | 0.9344   | 0.8769   |
+| 2          | 0.9291   | 0.8677   |
+| 3          | 0.9348   | 0.8776   |
+| 4          | 0.9324   | 0.8733   |
+| 5          | 0.9350   | 0.8780   |
+| 6          | 0.9368   | 0.8811   |
+| 7          | 0.9351   | 0.8782   |
+| 8          | 0.9282   | 0.8661   |
+| 9          | 0.9998   | 0.9997   |
+| 10         | 0.9215   | 0.8544   |
+| 11         | 0.9379   | 0.8832   |
+| 12         | 0.9337   | 0.8756   |
+| 13         | 0.9204   | 0.8527   |
+| 14         | 0.9341   | 0.8763   |
+| 16         | 0.9325   | 0.8736   |
+| 17         | 0.9240   | 0.8588   |
+| 18         | 0.9201   | 0.8520   |
+| 19         | 0.9351   | 0.8782   |
+| 20         | 0.9259   | 0.8621   |
+| **Average**| **0.9343** | **0.8771** |
+
+
 ### Python API Example
 
 You can also use the package directly in your Python code:
