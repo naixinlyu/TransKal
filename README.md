@@ -177,4 +177,14 @@ For CSV files, the expected format is:
 
 ## Acknowledgments
 
-The Tennessee Eastman Process (TEP) dataset is a benchmark dataset for process monitoring and fault detection in chemical processes, originally developed by Downs and Vogel.
+This project uses the Tennessee Eastman Process (TEP) dataset, a widely recognized benchmark in process monitoring and fault detection research. The TEP dataset simulates a chemical manufacturing process with 22 different fault scenarios, making it ideal for evaluating anomaly detection algorithms.
+
+The dataset includes:
+- Normal operating conditions (fault-free)
+- 21 different fault scenarios
+- 52 process variables (41 measured + 11 manipulated)
+- Time-series data with faults introduced at specific points
+
+Data is sourced from [Tennessee Eastman Process Simulation Dataset on Kaggle](https://www.kaggle.com/datasets/averkij/tennessee-eastman-process-simulation-dataset).
+
+The Tennessee Eastman Process was originally developed by Downs and Vogel (1993) as a realistic industrial challenge problem, and has since become a standard benchmark for evaluating process monitoring and fault detection methodologies.
