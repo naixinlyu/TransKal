@@ -1,4 +1,4 @@
-# TransKal
+# TransKal (Update 05/13/2025: Sorry, the training dataset needs to be reconsidered)
 
 ![Image Description](transkal-model-architecture.jpg)
 
