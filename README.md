@@ -1,8 +1,8 @@
-# TransKal (Update 05/13/2025: Sorry, the training dataset needs to be reconsidered)
+# TransKal
 
 ![Image Description](transkal-model-architecture.jpg)
 
-A Python package for time series anomaly detection using Transformer neural networks and Kalman filtering. This package is designed for general-purpose anomaly detection across various time series data and has been tested on the Tennessee Eastman Process (TEP) dataset.
+A Python package for time series anomaly detection using Transformer neural networks and Kalman filtering. This package is designed for general-purpose anomaly detection across various time series data. It has been tested on the Tennessee Eastman Process (TEP) dataset and has also demonstrated strong performance on other public benchmarks, such as the Server Machine Dataset (SMD), where it achieved an F1-score of 88.10% and accuracy of 98.49%.
 
 ## Features
 
@@ -57,32 +57,10 @@ If you have the Tennessee Eastman Process dataset in RData format:
 python examples/tep_example.py
 ```
 
-#### Performance Results on TEP Dataset
+For detailed implementation and analysis, refer to:
 
-| Fault Type | F1 Score | Accuracy |
-|------------|----------|----------|
-| 1          | 0.9344   | 0.8769   |
-| 2          | 0.9291   | 0.8677   |
-| 3          | 0.9348   | 0.8776   |
-| 4          | 0.9324   | 0.8733   |
-| 5          | 0.9350   | 0.8780   |
-| 6          | 0.9368   | 0.8811   |
-| 7          | 0.9351   | 0.8782   |
-| 8          | 0.9282   | 0.8661   |
-| 9          | 0.9998   | 0.9997   |
-| 10         | 0.9215   | 0.8544   |
-| 11         | 0.9379   | 0.8832   |
-| 12         | 0.9337   | 0.8756   |
-| 13         | 0.9204   | 0.8527   |
-| 14         | 0.9341   | 0.8763   |
-| 16         | 0.9325   | 0.8736   |
-| 17         | 0.9240   | 0.8588   |
-| 18         | 0.9201   | 0.8520   |
-| 19         | 0.9351   | 0.8782   |
-| 20         | 0.9259   | 0.8621   |
-| **Average**| **0.9343** | **0.8771** |
-
-For detailed implementation and analysis, please see [Fault_Detection_with_Transformer_and_Kalman_Filter_for_TEP.ipynb](Fault_Detection_with_Transformer_and_Kalman_Filter_for_TEP.ipynb)
+- [TransKal - Unsupervised Anomaly Detection on TEP](TransKal-Unsupervised_Anomaly_Detection_on_TEP.ipynb): training with normal data.
+- [Fault Detection with Transformer and Kalman Filter for TEP](Fault_Detection_with_Transformer_and_Kalman_Filter_for_TEP.ipynb): training with fault-specific data.
 
 ### Python API Example
 
@@ -144,6 +122,7 @@ TransKal/
 │   ├── tep_example.py
 │   └── custom_example.py
 ├── run.py
+├── TransKal-Unsupervised_Anomaly_Detection_on_TEP.ipynb
 └── Fault_Detection_with_Transformer_and_Kalman_Filter_for_TEP.ipynb
 ```
 
